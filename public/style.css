@@ -45,7 +45,12 @@ button {
     background-color:rgb(21, 131, 241) ;
     border: 1px solid white;
     border-radius: 10%;
-    padding: 4px
+    padding: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(25, 90, 155) ;
 }
 
 .result {
