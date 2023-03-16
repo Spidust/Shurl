@@ -10,6 +10,7 @@
 
 const { Client } = require('pg');
 const connectionString = process.env.CONNECT_STRING;
+console.log(connectionString);
 const client = new Client({
     connectionString
 });
